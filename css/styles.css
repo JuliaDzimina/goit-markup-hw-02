@@ -1,22 +1,32 @@
 :root{
-
+    --brand-color:#434455;
+    --drand-white-color:#FFFFFF;
+    --logo-web-color: #4D5AE5;
+    --logo-studio-color: #2E2F42;
+   
 }
 
 /* Common styles*/
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--brand-color);
+    background-color: var(--drand-white-color);
     font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Reset */
+.list,
 ul,
 ol{
     list-style: none;
 }
 
+.link,
 a{
     text-decoration: none;
     color: currentColor;
@@ -29,32 +39,22 @@ button{
 
 /*Header styles*/
 header {
-    background: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
+    
 }
 
 .logo{
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    display: flex;
+    line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--logo-web-color);
 }
 
-.logo-web{
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;}
+.logo-studio{
+    color: var(--logo-studio-color);}
 
 .header-nav-list{
     font-weight: 500;
