@@ -3,7 +3,9 @@
     --drand-white-color:#FFFFFF;
     --logo-web-color: #4D5AE5;
     --logo-studio-color: #2E2F42;
-   
+    --secondry-brand-color: #2E2F42;
+    --hover-focus-color:  #404BBF;
+
 }
 
 /* Common styles*/
@@ -38,9 +40,6 @@ button{
 }
 
 /*Header styles*/
-header {
-    
-}
 
 .logo{
     font-family: 'Raleway';
@@ -59,33 +58,25 @@ header {
 .header-nav-list{
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--secondry-brand-color);
 }
-
-.header-nav-list:hover,
-.header-nav-list:focus{
-    color: #404BBF;
-}
-
 
 .address{
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;  
-    letter-spacing: 0.02em;
     color: #434455;
 }
-
+.header-nav-list:hover,
+.header-nav-list:focus,
 .address:hover,
 .address:focus{
-    color: #404BBF;
+    color: var(--hover-focus-color);
 }
 
+
 .hero-imege{
-    background: #2E2F42;
+    background: var(--secondry-brand-color);
 }
 
 .main-title{
@@ -93,11 +84,11 @@ header {
     font-size: 56px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--drand-white-color);
 }
 
 .button-title{
-    background: #4D5AE5;
+    background: var(--logo-web-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 500;
@@ -106,12 +97,12 @@ header {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--drand-white-color);
 }
 
 .button-title:hover,
 .button-title:focus{
-    background: #404BBF;
+    background: var(--hover-focus-color);
 }
 
 
@@ -119,7 +110,7 @@ header {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--secondry-brand-color);
 }
  
 .paragraph{
