@@ -6,6 +6,8 @@
     --secondry-brand-color: #2E2F42;
     --hover-focus-color:  #404BBF;
     --brand-iris-color: #4D5AE5;
+    --cloud-color: #F4F4FD;
+
 }
 
 /* Common styles*/
@@ -71,7 +73,7 @@ header{
 .address{
     font-family: inherit;
     font-style: normal;
-    counter-reset: var(--brand-color);
+    color: var(--brand-color);
 }
 
 .nav-list:hover,
@@ -91,7 +93,6 @@ header{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* or 107% */
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--drand-white-color);
@@ -114,10 +115,39 @@ header{
 .third-title{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2
-    color: var(var(--secondry-brand-color));
+    line-height: 1.2;
+    color: var(--secondry-brand-color);
     }
 
 .paragraph{
-    
+
+}
+
+.second-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+   color: var(--secondry-brand-color);
+}
+
+.section-team{
+    background-color: var(--cloud-color);
+}
+
+.team-list{
+    background-color: var(--drand-white-color);
+}
+
+footer{
+    background-color: var(--secondry-brand-color);
+}
+
+.logo-studio-footer{
+    color: var(--cloud-color);
+}
+
+.paragraph-footer{
+    color: var(--cloud-color);
 }
