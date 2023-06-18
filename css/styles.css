@@ -82,10 +82,7 @@ header{
     color: var(--hover-focus-color);
 }
 
-.address:hover{
-    color: var(--hover-focus-color);
-}
-
+.address:hover,
 .address:focus{
     color: var(--hover-focus-color);
 }
