@@ -157,3 +157,22 @@ header{
 .paragraph-footer{
     color: var(--cloud-color);
 }
+
+.button-portfolio{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--brand-iris-color);
+    background-color: var(--cloud-color);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus{
+    background-color: var(--hover-focus-color);
+    color: var(--drand-white-color);
+}
+
+.gallery-list{
+    background-color: var(--drand-white-color);
+}
