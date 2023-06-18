@@ -5,7 +5,7 @@
     --logo-studio-color: #2E2F42;
     --secondry-brand-color: #2E2F42;
     --hover-focus-color:  #404BBF;
-
+    --brand-iris-color: #4D5AE5;
 }
 
 /* Common styles*/
@@ -43,6 +43,10 @@ button{
 /* Base styles*/
 
 /*Header styles*/
+header{
+    background-color: var(--drand-white-color);
+}
+
 .logo{
     font-family: 'Raleway' sans-serif;
     font-weight: 800;
@@ -54,7 +58,7 @@ button{
 }
 
 .logo-studio {
-    color: (var(--logo-studio-color));
+    color: var(--logo-studio-color);
 }
 
 .nav-list{
@@ -75,4 +79,45 @@ button{
 .address:hover,
 .address:focus{
     color: var(--hover-focus-color);
+}
+
+
+/*main*/
+.hero-imege{
+    background-color: var(--secondry-brand-color);
+}
+
+.main-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    /* or 107% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--drand-white-color);
+}
+
+.button-title{
+    background-color: var(--brand-iris-color);
+    color: var(--drand-white-color);
+    font-weight: 500;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
+
+.button-title:hover,
+.button-title:focus{
+    background-color: var(--hover-focus-color);
+}
+
+.third-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2
+    color: var(var(--secondry-brand-color));
+    }
+
+.paragraph{
+    
 }
