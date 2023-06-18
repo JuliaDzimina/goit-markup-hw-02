@@ -8,12 +8,14 @@
     --brand-iris-color: #4D5AE5;
     --cloud-color: #F4F4FD;
 
+    --primary-font: 'Roboto', sans-serif;
+
 }
 
 /* Common styles*/
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     color: var(--brand-color);
     background-color: var(--drand-white-color);
     font-style: normal;
@@ -105,7 +107,6 @@ header{
     letter-spacing: 0.04em;
     font-weight: 500;
     line-height: 1.5;
-    align-items: center;
 }
 
 .button-title:hover,
@@ -117,6 +118,7 @@ header{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--secondry-brand-color);
     }
 
