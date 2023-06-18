@@ -7,7 +7,6 @@
     --hover-focus-color:  #404BBF;
     --brand-iris-color: #4D5AE5;
     --cloud-color: #F4F4FD;
-
     --primary-font: 'Roboto', sans-serif;
 
 }
@@ -15,7 +14,7 @@
 /* Common styles*/
 
 body{
-    font-family: 'Roboto', 'Raleway', sans-serif; ;
+    font-family: 'Roboto', sans-serif; ;
     color: var(--brand-color);
     background-color: var(--drand-white-color);
     font-style: normal;
@@ -61,7 +60,7 @@ header{
     color: var(--logo-web-color);
 }
 
-.logo-studio {
+.logo-studio{
     color: var(--logo-studio-color);
 }
 
@@ -81,7 +80,7 @@ header{
 .nav-list:hover,
 .nav-list:focus,
 .address:hover,
-.address:focus {
+.address:focus{
     color: var(--hover-focus-color);
 }
 
