@@ -47,7 +47,7 @@ button{
     font-family: 'Raleway' sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-web-color);
@@ -68,4 +68,11 @@ button{
     font-family: inherit;
     font-style: normal;
     counter-reset: var(--brand-color);
+}
+
+.nav-list:hover,
+.nav-list:focus,
+.address:hover,
+.address:focus{
+    color: var(--hover-focus-color);
 }
