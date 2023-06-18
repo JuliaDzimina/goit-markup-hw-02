@@ -79,7 +79,7 @@ header{
 .nav-list:hover,
 .nav-list:focus,
 .address:hover,
-.address:focus{
+.address:focus {
     color: var(--hover-focus-color);
 }
 
@@ -101,10 +101,11 @@ header{
 .button-title{
     background-color: var(--brand-iris-color);
     color: var(--drand-white-color);
+    font-size: 16px;
+    letter-spacing: 0.04em;
     font-weight: 500;
     line-height: 1.5;
     align-items: center;
-    letter-spacing: 0.04em;
 }
 
 .button-title:hover,
@@ -128,8 +129,9 @@ header{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
-   color: var(--secondry-brand-color);
+    color: var(--secondry-brand-color);
 }
 
 .section-team{
@@ -140,7 +142,7 @@ header{
     background-color: var(--drand-white-color);
 }
 
-footer{
+.footer{
     background-color: var(--secondry-brand-color);
 }
 
