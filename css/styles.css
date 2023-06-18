@@ -78,7 +78,10 @@ header{
 }
 
 .nav-list:hover,
-.nav-list:focus,
+.nav-list:focus{
+    color: var(--hover-focus-color);
+}
+
 .address:hover,
 .address:focus{
     color: var(--hover-focus-color);
